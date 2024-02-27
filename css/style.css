@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    --golden: #F5980C;
+    --light: #fff;
+    --dark: #333333;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Lily", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: var(--dark);
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "Times-normal", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+    font-family: "Times-normal", Arial, Helvetica, sans-serif;
+	color: var(--dark);
+	text-decoration: none;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Times-normal", Arial;
+	font-weight: 500;
+	color: var(--dark);
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+
+@font-face {
+    font-family: 'Lily';
+    src: url("../fonts/LilyScriptOne-Regular.woff2") format("woff2");
+    src: url("../fonts/LilyScriptOne-Regular.woff2") format("woff");
+    font-weight: 700;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Times-normal';
+    src: url("../fonts/times-new-roman.woff2") format("woff2");
+    src: url("../fonts/times-new-roman.woff") format("woff"),;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Times-bold';
+    src: url("../fonts/times-new-roman-bold.woff2") format("woff2");
+    src: url("../fonts/times-new-roman-bold.woff") format("woff");
+    font-weight: 700;
+    font-style: bold;
+}
+h1 a{
+	font-family: 'Lily';
+}
+
+div.content{
+	background-image: url(/casamono/images/home/spot-bg.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 75vh;
+	border-radius: 24px;
+}
+h1{
+	font-family: 'LIly';
+}
+h4{
+	font-family: 'times-normal';
+}
+p{
+	font-family: 'times-normal';
+}
+li{
+	font-family:'times-normal' ;
+}
+a{
+	font-family: 'times-normal';
+}
+div.left{
+	background-image: url(/casamono/images/home/footer-bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 75vh;
+}
+.left{
+	background-color: rgba(0,0,0,.5);
+	background-blend-mode: darken;
+	background-image: url(/casamono/images/home/footer-bg.jpg);
+}
+
